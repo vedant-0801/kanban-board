@@ -1,0 +1,19 @@
+.kanban-column {
+    flex: 0 0 300px;
+    margin-right: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.column-header {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.column-body {
+    display: flex;
+    flex-direction: column;
+}
